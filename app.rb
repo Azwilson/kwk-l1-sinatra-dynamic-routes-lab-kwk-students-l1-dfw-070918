@@ -9,13 +9,10 @@ class App < Sinatra::Base
   
   
   get '/square/:number' do
-   square.number == params[:number]
-  end.second
-  erb :'/square/:number'
+   num == params[:number]
+  end
+(num.to_1**2).to_s
   
-  params = {
-    :id =>2
-  }
   
 end  
 
