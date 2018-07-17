@@ -2,7 +2,7 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
  
-  get '/reversename/:name'
+  get '/reversename/:name' do
    reversename.name == params[:id]
   end.first
   erb :'/reversename/show.html'
@@ -12,7 +12,7 @@ class App < Sinatra::Base
     :id =>1
   }
   
-  get '/square/:number'
+  get '/square/:number' do
    square.number == params[:id]
   end.second
     erb : '/square/:number'
