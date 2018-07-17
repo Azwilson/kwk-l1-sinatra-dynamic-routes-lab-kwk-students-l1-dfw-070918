@@ -21,7 +21,7 @@ class App < Sinatra::Base
     :id =>2
   }
   
-  
+end  
 
 
 
