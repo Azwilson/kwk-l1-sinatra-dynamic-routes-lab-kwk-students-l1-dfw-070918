@@ -6,7 +6,7 @@ class App < Sinatra::Base
    reversename.name == params[:id]
   end.first
  erb :'/reversename/show.html'
- end
+ 
   
   params = {
     :id =>1
