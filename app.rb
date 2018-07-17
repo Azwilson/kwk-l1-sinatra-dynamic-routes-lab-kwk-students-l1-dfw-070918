@@ -43,8 +43,11 @@ end
    answer = number1 % number2
  elsif operation == "subtract"
    answer = number1 - number2
- end
+ end 
+ answer.to_s
 end
+
+
 
    
    
