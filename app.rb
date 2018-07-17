@@ -34,6 +34,19 @@ end
  number1 = params[:number1].to_i
  number2 = params[:number2].to_i
  operation = params[:operation]
- end  /add/1/2
+ 
+ if operation == "add"
+   answer = number1 + number2
+ elsif operation == "multiply"
+   answer = number1 * number2
+ elsif operation == "divide"
+   answer = number1 % number2
+if operation == "add"
+   answer = number1 + number2
+   
+   
+   
+   
+   
 
 end
