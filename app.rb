@@ -20,8 +20,7 @@ class App < Sinatra::Base
   final_string += "#{params[:phrase]}\n"
   end
 final_string
-
- end
+end
 
 
   get '/say/:word1/:word2/:word3/:word4/:word5' do 
@@ -36,7 +35,7 @@ final_string
  number2 = params[:number2].to_i
  operation = params[:operation]
  end
- 
+
  
  
  
