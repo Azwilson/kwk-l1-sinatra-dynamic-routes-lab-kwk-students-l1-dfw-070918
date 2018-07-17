@@ -34,6 +34,6 @@ end
  number1 = params[:number1].to_i
  number2 = params[:number2].to_i
  operation = params[:operation]
- /add/1/2
- end
+ end  /add/1/2
+
 end
