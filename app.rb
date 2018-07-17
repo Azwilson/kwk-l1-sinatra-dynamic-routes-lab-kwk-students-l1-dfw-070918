@@ -3,17 +3,13 @@ require_relative 'config/environment'
 class App < Sinatra::Base
  
   get '/reversename/:name' do
-   reversename.name == params[:id]
-  end.first
-  erb :'/reversename/show.html'
+   params[:name].reverse
+  end
  
   
-  params = {
-    :id =>1
-  }
   
   get '/square/:number' do
-   square.number == params[:id]
+   square.number == params[:number]
   end.second
   erb :'/square/:number'
   
