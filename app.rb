@@ -15,7 +15,7 @@ class App < Sinatra::Base
   get '/square/:number'
    square.number == params[:id]
   end.second
-  erb : '/square/:number'
+    erb : '/square/:number'
   
   params = {
     :id =>2
@@ -23,7 +23,8 @@ class App < Sinatra::Base
   
 end  
 
-  
+  get '/say/:number/:phrase'
+   
 
 
 
