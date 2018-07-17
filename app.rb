@@ -7,7 +7,13 @@ class App < Sinatra::Base
   end.first
  erb :'/reversename/show.html'
  end
-end
+  
+  params = {
+    :id =>1
+  }
+
+
+
 
 
 
